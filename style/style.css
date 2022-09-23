@@ -1,15 +1,59 @@
-/* Perfil general */
+/* General ##################################### */
+
+body{
+    color: #33F135;
+    background-color: #182933;
+}
+h1{
+    color: #FD7E05;
+}
+
+i{
+    color: #33F135;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header ##################################### */
+.btn-navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #234460;
+}
+
+.btn-navbar li {
+    float: right;
+    margin: 0 10px 0;
+}
+
+.btn-navbar li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.btn-navbar li a:hover {
+    background-color: #182933;
+}
 .mat-card {
     border-radius: 32px;
-    margin: 20px 10px;
-    padding: 10px;
-    border-color: #0a66c2;
+    margin: 10px 10px;
+    padding: 20px;
+    border-color: #182933;
+    background-color: #234460;
 }
 .mat-card#first-card {
     padding: 0;
 }
 
-/* Background */
+/* Fondo ##################################### */
 div#profile-background{
     display: flex;
     z-index: 1;
@@ -19,9 +63,9 @@ div#profile-background img {
     border-radius: 32px 32px 0 0;
 }
 
-/* Informacion Personal */
-div.info {
-    padding: 16px;
+/* Perfil ##################################### */
+#info-img {
+    display: flex;
 }
 .profile-image{
     border-radius: 50%;
@@ -30,6 +74,33 @@ div.info {
     margin-top: -110px;
     z-index: 1;
 }
+
 div#info-actions {
+    display: block;
+}
+
+div#info-data {
     display: flex;
+    justify-content: space-between;
+}
+
+#info {
+    padding: 16px;
+}
+
+div#info-data ul#info-details {
+    display: flex;
+}
+.logo-empresa img{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+#educacion li {
+    display: flex;
+}
+
+ul#educacion li#titulo {
+    justify-content: space-between;
 }

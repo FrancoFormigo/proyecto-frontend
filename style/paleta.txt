@@ -1,4 +1,3 @@
 fondo: #182933
 bloques: #234460
 titulos: #FD7E05
-texto: #33F135
